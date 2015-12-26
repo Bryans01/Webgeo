@@ -10,5 +10,9 @@ myData = [
 [-25.7478676,28.2292712, 'Pretoria, South Africa'],
 [-28.7807276,32.0382856, 'Richards Bay, South Africa'],
 [-33.3106292,26.5255946, 'Grahamstown, South Africa'],
-[-33.9321045,18.860152, 'Stellenbosch, South Africa']
+[-33.9321045,18.860152, 'Stellenbosch, South Africa'],
+[51.9244201,4.4777325, 'Rotterdam, Netherlands'],
+[52.3702157,4.8951679, 'Amsterdam, Netherlands'],
+[52.0704978,4.3006999, 'The Hague, Netherlands'],
+[55.953252,-3.188267, 'Edinburgh, Edinburgh, UK']
 ];
