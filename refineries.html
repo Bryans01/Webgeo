@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>A Map of Information</title>
+    <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js"></script>
+    <script src="ref.js"></script>
+    <script>
+
+      function initialize() {
+        
+        var myLatlng = new google.maps.LatLng(-29.6006068,30.3794118)
+        var mapOptions = {
+          zoom: 3,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+        i = 0;
+        var markers = [];
+        for ( pos in myData ) {
+            i = i + 1;
+            var row = myData[pos];
+		    window.console && console.log(row);
+            // if ( i < 3 ) { alert(row); }
+            var newLatlng = new google.maps.LatLng(row[0], row[1]);
+            var marker = new google.maps.Marker({
+                position: newLatlng,
+                map: map,
+                title: row[2]
+            });
+            markers.push(marker);
+        }
+      }
+    </script>
+</head>
+
+<body  background= "images/background.jpg" onload="initialize()">
+
+<h1 align = "center"> African Oil and Gas Maps </h1>
+
+<h4 align = "center"> African Refineries </h2>
+
+<div id="map_canvas" style="height: 300px"></div>
+
+<h3> Link to go back: </h4> 
+<h4> <a href= "index.html"> Home </a> </h3>
+
+</body>
+</html>
