@@ -14,5 +14,17 @@ myData = [
 [51.9244201,4.4777325, 'Rotterdam, Netherlands'],
 [52.3702157,4.8951679, 'Amsterdam, Netherlands'],
 [52.0704978,4.3006999, 'The Hague, Netherlands'],
-[55.953252,-3.188267, 'Edinburgh, Edinburgh, UK']
+[55.953252,-3.188267, 'Edinburgh, Edinburgh, UK'],
+[-28.2749996,29.1041691, 'Harrismith, South Africa'],
+[-29.87479,30.277399, 'Richmond, 3780, South Africa'],
+[-25.7477324,27.8871784, 'Hartbeespoort, South Africa'],
+[-29.7694486,30.7867129, 'Hillcrest, South Africa'],
+[-29.8345022,30.8384093, 'Pinetown, South Africa'],
+[-29.7785344,30.8326663, 'Kloof, South Africa'],
+[-25.450971,31.958687, 'Komatipoort, South Africa'],
+[-29.4331556,30.5811515, 'Wartburg, 3233, South Africa'],
+[-29.4892951,30.2166519, 'Howick, South Africa'],
+[52.0115769,4.3570677, 'Delft, Netherlands'],
+[51.2194475,4.4024643, 'Antwerp, Belgium'],
+[50.8503396,4.3517103, 'Brussels, Belgium']
 ];
