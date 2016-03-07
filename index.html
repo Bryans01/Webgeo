@@ -2,7 +2,7 @@
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>A Map of Information</title>
+    <title>McGuigan Travel Map</title>
     <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer_compiled.js"></script>
@@ -40,16 +40,16 @@
 
 <body  background= "images/background.jpg" onload="initialize()">
 
-<h1 align = "center"> Oil and Gas Maps </h1>
-<h4 align = "center"> By Stephen Bryan </h2>
+<h1 align = "center"> McGuigan Travel Map </h1>
+<h4 align = "center"> By Stephen Bryan </h4>
 
 <h4> Follow a link: </h4>
-<h4> <a href= "refineries.html"> Refineries </a> </h3>
-<h4> <a href= "wells.html"> Basins and Fields </a> </h3>
-<h4> <a href= "schools.html#"> Oil and Gas Drilling & Exploration Companies </a> </h3>
+<h4> <a href= "alan.html"> Alan McGuigan </a> </h3>
+<h4> <a href= "derek.html"> Carol McGuigan </a> </h3>
+<h4> <a href= "carol.html#"> Derek McGuigan</a> </h3>
 
 
-<h4 align = "center"> Where I've Been </h2>
+<h4 align = "center"> Fiona McGuigan </h2>
 
 <div id="map_canvas" style="height: 300px" ></div>
 
@@ -57,25 +57,12 @@
 <h4 align = "center"> Email the Author: </h4>
 <p align = "center"> steve.h.bryan@gmail.com </p>
 
-<p>
+<p align = "center">
 Code for these maps were repurposed from the awesome book: 
 <a href="http://www.pythonlearn.com">www.pythonlearn.com</a>.
 </p>
+ 
 
-  <script language="JavaScript">
-  var data = '&r=' + escape(document.referrer)
-	+ '&n=' + escape(navigator.userAgent)
-	+ '&p=' + escape(navigator.userAgent)
-	+ '&g=' + escape(document.location.href);
-
-  if (navigator.userAgent.substring(0,1)>'3')
-    data = data + '&sd=' + screen.colorDepth 
-	+ '&sw=' + escape(screen.width+'x'+screen.height);
-
-  document.write('<a href="http://www.1freecounter.com/stats.php?i=111186" target=\"_blank\" >');
-  document.write('<img alt="Free Counter" border=0 hspace=0 '+'vspace=0 src="http://www.1freecounter.com/counter.php?i=111186' + data + '">');
-  document.write('</a>');
-  </script>
 
 </body>
 </html>
